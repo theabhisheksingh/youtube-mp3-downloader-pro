@@ -1,0 +1,142 @@
+// Import required fonts
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100');
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100');
+
+.Ubuntu () {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.RobotoSlab () {
+  font-family: 'Roboto Slab', serif;
+}
+
+.OpenSans() {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.no-select {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#dmcaRecords {
+  position: relative;
+  width: 100%;
+  margin-top: 3px;
+  border-top: 1px solid #444;
+  border-collapse: collapse;
+  thead {
+    tr {
+      th {
+        position: relative;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 7px 10px;
+        text-align: left;
+        background-color: #ddd;
+        border-bottom: 1px solid #444;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:hover td {
+        background-color: #eee !important;
+      }
+      td {
+        .Ubuntu;
+        font-size: 13px;
+        position: relative;
+        padding: 7px 10px;
+        border-bottom: 1px solid #ddd;
+        .rNote {
+          max-width: 300px;
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          font-size: 0;
+          list-style: none;
+          li {
+            position: relative;
+            display: inline-block;
+            span.fa {
+              cursor: pointer;
+              color: #6a737b;
+              &.fa-close:hover {
+                color: #fd5c63;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#addDMCA {
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  .OpenSans;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #34bf49;
+  border: 1px solid #49a942;
+  &:active {
+    background-color: #49a942;
+  }
+}
+
+#ajaxResult {
+  position: relative;
+  margin-left: 10px;
+  &.loading .loading {
+    display: inline !important;
+  }
+  &.success .success {
+    display: inline !important;
+  }
+  &.failed .failed {
+    display: inline !important;
+  }
+  .loading, .success, .failed {
+    display: none;
+  }
+  .success, .failed {
+    .okTXT, .noTXT {
+      margin-right: 5px;
+      .Ubuntu;
+      font-size: 14px;
+    }
+    .okTXT {
+      color: #49a942;
+    }
+    .noTXT {
+      color: #fd5c63;
+    }
+    span.fa {
+      cursor: pointer;
+      color: #888;
+      &:hover {
+        color: #fd5c63;
+      }
+    }
+  }
+}

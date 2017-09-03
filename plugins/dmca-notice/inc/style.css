@@ -1,0 +1,124 @@
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100');
+@import url('//fonts.googleapis.com/css?family=Ubuntu');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,600');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100');
+.no-select {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#dmcaRecords {
+  position: relative;
+  width: 100%;
+  margin-top: 3px;
+  border-top: 1px solid #444;
+  border-collapse: collapse;
+}
+#dmcaRecords thead tr th {
+  position: relative;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 10px;
+  text-align: left;
+  background-color: #ddd;
+  border-bottom: 1px solid #444;
+}
+#dmcaRecords tbody tr:hover td {
+  background-color: #eee !important;
+}
+#dmcaRecords tbody tr td {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  position: relative;
+  padding: 7px 10px;
+  border-bottom: 1px solid #ddd;
+}
+#dmcaRecords tbody tr td .rNote {
+  max-width: 300px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#dmcaRecords tbody tr td ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+#dmcaRecords tbody tr td ul li {
+  position: relative;
+  display: inline-block;
+}
+#dmcaRecords tbody tr td ul li span.fa {
+  cursor: pointer;
+  color: #6a737b;
+}
+#dmcaRecords tbody tr td ul li span.fa.fa-close:hover {
+  color: #fd5c63;
+}
+#addDMCA {
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #34bf49;
+  border: 1px solid #49a942;
+}
+#addDMCA:active {
+  background-color: #49a942;
+}
+#ajaxResult {
+  position: relative;
+  margin-left: 10px;
+}
+#ajaxResult.loading .loading {
+  display: inline !important;
+}
+#ajaxResult.success .success {
+  display: inline !important;
+}
+#ajaxResult.failed .failed {
+  display: inline !important;
+}
+#ajaxResult .loading,
+#ajaxResult .success,
+#ajaxResult .failed {
+  display: none;
+}
+#ajaxResult .success .okTXT,
+#ajaxResult .failed .okTXT,
+#ajaxResult .success .noTXT,
+#ajaxResult .failed .noTXT {
+  margin-right: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+#ajaxResult .success .okTXT,
+#ajaxResult .failed .okTXT {
+  color: #49a942;
+}
+#ajaxResult .success .noTXT,
+#ajaxResult .failed .noTXT {
+  color: #fd5c63;
+}
+#ajaxResult .success span.fa,
+#ajaxResult .failed span.fa {
+  cursor: pointer;
+  color: #888;
+}
+#ajaxResult .success span.fa:hover,
+#ajaxResult .failed span.fa:hover {
+  color: #fd5c63;
+}

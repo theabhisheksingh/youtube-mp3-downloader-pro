@@ -1,0 +1,732 @@
+html.flavor-default ::-webkit-input-placeholder {
+  color: #b7e4f7 !important;
+}
+html.flavor-default #header {
+  background: #4DBDEB url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-default #footer {
+  background-color: #4DBDEB !important;
+}
+html.flavor-default #videosList #videosMenu {
+  border-color: #34bf49 !important;
+}
+html.flavor-default #videosList #videosMenu li.active {
+  border-color: #34bf49 !important;
+}
+html.flavor-default #videosList .videosArea .pageHead {
+  color: #00bce4 !important;
+  border-color: #00bce4 !important;
+}
+html.flavor-default #chooseCountry {
+  border-color: #00bce4 !important;
+}
+html.flavor-default #chooseCountry span.chooseCountry {
+  background-color: #00a4e4 !important;
+  border-color: #2b82ad !important;
+}
+html.flavor-default #countriesList {
+  border-color: #00bce4 !important;
+}
+html.flavor-default #gotoTop {
+  border: 1px solid #4DBDEB !important;
+}
+html.flavor-default #gotoTop span.fa {
+  color: #4DBDEB !important;
+}
+html.flavor-green ::-webkit-input-placeholder {
+  color: #c7f0cd !important;
+}
+html.flavor-green #header {
+  background: #34bf49 url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-green .ui-autocomplete {
+  background: #34bf49 url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #2ca03d;
+}
+html.flavor-green .ui-autocomplete * {
+  color: #FFFFFF !important;
+}
+html.flavor-green #search #search_in {
+  color: #FFFFFF;
+  border-color: #FFFFFF !important;
+}
+html.flavor-green #search #search_go span {
+  color: #FFFFFF !important;
+}
+html.flavor-green #load .load-icon,
+html.flavor-green .media-load .load-icon {
+  background-image: url('../images/loading-green.gif');
+}
+html.flavor-green #load span,
+html.flavor-green .media-load span {
+  color: #2ca03d !important;
+}
+html.flavor-green #footer {
+  background-color: #34bf49 !important;
+}
+html.flavor-green #videosList #videosMenu {
+  border-color: #34bf49 !important;
+}
+html.flavor-green #videosList #videosMenu li.active {
+  background-color: #34bf49 !important;
+}
+html.flavor-green #videosList .videosArea .pageHead {
+  color: #34bf49 !important;
+  border-color: #34bf49 !important;
+}
+html.flavor-green .video .v-body .v-title {
+  color: #1b6226 !important;
+}
+html.flavor-green .video .v-body .v-owner {
+  color: #12441a !important;
+}
+html.flavor-green .video .v-foot ul.v-actions li {
+  color: #1b6226 !important;
+  background-color: #34bf49 !important;
+  border-color: #1b6226 !important;
+}
+html.flavor-green #chooseCountry {
+  border-color: #34bf49 !important;
+}
+html.flavor-green #chooseCountry span.chooseCountry {
+  background-color: #34bf49 !important;
+  border-color: #279137 !important;
+}
+html.flavor-green #countriesList {
+  border-color: #34bf49 !important;
+}
+html.flavor-green #sharePage {
+  background-color: #34bf49 !important;
+}
+html.flavor-green #sharePage:hover {
+  background-color: #3dca52 !important;
+}
+html.flavor-green #sharePage:active {
+  background-color: #30b043 !important;
+}
+html.flavor-green #loadMore span,
+html.flavor-green input[type='submit'] {
+  color: #1b6226;
+  background-color: #34bf49;
+  border-color: #1b6226;
+}
+html.flavor-green #loadMore span:hover,
+html.flavor-green input[type='submit']:hover {
+  background-color: #30b043;
+  border-color: #1b6226;
+}
+html.flavor-green #lsParent a:hover,
+html.flavor-green #rsParent a:hover {
+  background-color: #34bf49;
+}
+html.flavor-green #gotoTop {
+  border: 1px solid #34bf49 !important;
+}
+html.flavor-green #gotoTop span.fa {
+  color: #34bf49 !important;
+}
+html.flavor-red ::-webkit-input-placeholder {
+  color: #f5bcbb !important;
+}
+html.flavor-red #header {
+  background: #cd201f url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-red .ui-autocomplete {
+  background: #cd201f url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #891515;
+}
+html.flavor-red .ui-autocomplete * {
+  color: #FFFFFF !important;
+}
+html.flavor-red #search #search_in {
+  color: #FFFFFF;
+  border-color: #FFFFFF !important;
+}
+html.flavor-red #search #search_go span {
+  color: #FFFFFF !important;
+}
+html.flavor-red #load .load-icon,
+html.flavor-red .media-load .load-icon {
+  background-image: url('../images/loading-red.gif');
+}
+html.flavor-red #load span,
+html.flavor-red .media-load span {
+  color: #891515 !important;
+}
+html.flavor-red #footer {
+  background-color: #cd201f !important;
+}
+html.flavor-red #videosList #videosMenu {
+  border-color: #cd201f !important;
+}
+html.flavor-red #videosList #videosMenu li.active {
+  background-color: #cd201f !important;
+}
+html.flavor-red #videosList .videosArea .pageHead {
+  color: #cd201f !important;
+  border-color: #cd201f !important;
+}
+html.flavor-red .video .v-body .v-title {
+  color: #891515 !important;
+}
+html.flavor-red .video .v-body .v-owner {
+  color: #781312 !important;
+}
+html.flavor-red .video .v-foot ul.v-actions li {
+  color: #560d0d !important;
+  background-color: #de2322 !important;
+  border-color: #781312 !important;
+}
+html.flavor-red #chooseCountry {
+  border-color: #de2322 !important;
+}
+html.flavor-red #chooseCountry span.chooseCountry {
+  background-color: #cd201f !important;
+  border-color: #9a1817 !important;
+}
+html.flavor-red #countriesList {
+  border-color: #de2322 !important;
+}
+html.flavor-red #sharePage {
+  background-color: #e74c3c !important;
+}
+html.flavor-red #sharePage:hover {
+  background-color: #eb6c5f !important;
+}
+html.flavor-red #sharePage:active {
+  background-color: #e53c2b !important;
+}
+html.flavor-red #sharePage * {
+  color: #fadedd;
+}
+html.flavor-red #loadMore span,
+html.flavor-red input[type='submit'] {
+  color: #560d0d;
+  background-color: #e34544;
+  border-color: #781312;
+}
+html.flavor-red #loadMore span:hover,
+html.flavor-red input[type='submit']:hover {
+  background-color: #de2322;
+  border-color: #781312;
+}
+html.flavor-red #lsParent a:hover,
+html.flavor-red #rsParent a:hover {
+  background-color: #e74c3c;
+}
+html.flavor-red #gotoTop {
+  border: 1px solid #e74c3c !important;
+}
+html.flavor-red #gotoTop span.fa {
+  color: #e74c3c !important;
+}
+html.flavor-violet ::-webkit-input-placeholder {
+  color: #ede1f2 !important;
+}
+html.flavor-violet #header {
+  background: #9b59b6 url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-violet .ui-autocomplete {
+  background: #9b59b6 url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #7b4193;
+}
+html.flavor-violet .ui-autocomplete * {
+  color: #FFFFFF !important;
+}
+html.flavor-violet #search #search_in {
+  color: #FFFFFF;
+  border-color: #FFFFFF !important;
+}
+html.flavor-violet #search #search_go span {
+  color: #FFFFFF !important;
+}
+html.flavor-violet #load .load-icon,
+html.flavor-violet .media-load .load-icon {
+  background-image: url('../images/loading-violet.gif');
+}
+html.flavor-violet #load span,
+html.flavor-violet .media-load span {
+  color: #9b59b6 !important;
+}
+html.flavor-violet #footer {
+  background-color: #9b59b6 !important;
+}
+html.flavor-violet #videosList #videosMenu {
+  border-color: #9b59b6 !important;
+}
+html.flavor-violet #videosList #videosMenu li.active {
+  background-color: #9b59b6 !important;
+}
+html.flavor-violet #videosList .videosArea .pageHead {
+  color: #9b59b6 !important;
+  border-color: #9b59b6 !important;
+}
+html.flavor-violet .video .v-body .v-title {
+  color: #7b4193 !important;
+}
+html.flavor-violet .video .v-body .v-owner {
+  color: #592f6a !important;
+}
+html.flavor-violet .video .v-foot ul.v-actions li {
+  color: #4e295d !important;
+  background-color: #9b59b6 !important;
+  border-color: #592f6a !important;
+}
+html.flavor-violet #chooseCountry {
+  border-color: #9b59b6 !important;
+}
+html.flavor-violet #chooseCountry span.chooseCountry {
+  background-color: #924daf !important;
+  border-color: #703b86 !important;
+}
+html.flavor-violet #countriesList {
+  border-color: #9b59b6 !important;
+}
+html.flavor-violet #sharePage {
+  background-color: #9b59b6 !important;
+}
+html.flavor-violet #sharePage:hover {
+  background-color: #b482c8 !important;
+}
+html.flavor-violet #sharePage:active {
+  background-color: #8747a1 !important;
+}
+html.flavor-violet #sharePage * {
+  color: #FFFFFF !important;
+}
+html.flavor-violet #loadMore span,
+html.flavor-violet input[type='submit'] {
+  color: #4e295d;
+  background-color: #a367bc;
+  border-color: #592f6a;
+}
+html.flavor-violet #loadMore span:hover,
+html.flavor-violet input[type='submit']:hover {
+  background-color: #9b59b6;
+  border-color: #4e295d;
+}
+html.flavor-violet #lsParent a:hover,
+html.flavor-violet #rsParent a:hover {
+  background-color: #9b59b6;
+}
+html.flavor-violet #gotoTop {
+  border: 1px solid #9b59b6 !important;
+}
+html.flavor-violet #gotoTop span.fa {
+  color: #9b59b6 !important;
+}
+html.flavor-orange ::-webkit-input-placeholder {
+  color: #ffdcc4 !important;
+}
+html.flavor-orange #header {
+  background: #FF6600 url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-orange #header * {
+  color: #FFFFFF !important;
+}
+html.flavor-orange .ui-autocomplete {
+  background: #FF6600 url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #c44e00;
+}
+html.flavor-orange .ui-autocomplete * {
+  color: #FFFFFF !important;
+}
+html.flavor-orange #search #search_in {
+  color: #FFFFFF;
+  border-color: #c44e00 !important;
+}
+html.flavor-orange #search #search_go span {
+  color: #c44e00 !important;
+}
+html.flavor-orange #load .load-icon,
+html.flavor-orange .media-load .load-icon {
+  background-image: url('../images/loading-orange.gif');
+}
+html.flavor-orange #load span,
+html.flavor-orange .media-load span {
+  color: #b14700 !important;
+}
+html.flavor-orange #footer {
+  background-color: #FF6600 !important;
+}
+html.flavor-orange #videosList #videosMenu {
+  border-color: #FF6600 !important;
+}
+html.flavor-orange #videosList #videosMenu li.active {
+  background-color: #FF6600 !important;
+}
+html.flavor-orange #videosList .videosArea .pageHead {
+  color: #FF6600 !important;
+  border-color: #FF6600 !important;
+}
+html.flavor-orange .video .v-body .v-title {
+  color: #d85600 !important;
+}
+html.flavor-orange .video .v-body .v-owner {
+  color: #b14700 !important;
+}
+html.flavor-orange .video .v-foot ul.v-actions li {
+  color: #893700 !important;
+  background-color: #FF6600 !important;
+  border-color: #b14700 !important;
+}
+html.flavor-orange #chooseCountry {
+  border-color: #FF6600 !important;
+}
+html.flavor-orange #chooseCountry span.chooseCountry {
+  background-color: #d85600 !important;
+  border-color: #b14700 !important;
+}
+html.flavor-orange #countriesList {
+  border-color: #FF6600 !important;
+}
+html.flavor-orange #sharePage {
+  background-color: #FF6600 !important;
+}
+html.flavor-orange #sharePage:hover {
+  background-color: #ff7214 !important;
+}
+html.flavor-orange #sharePage:active {
+  background-color: #eb5e00 !important;
+}
+html.flavor-orange #sharePage * {
+  color: #FFFFFF !important;
+}
+html.flavor-orange #loadMore span,
+html.flavor-orange input[type='submit'] {
+  color: #b14700;
+  background-color: #ff7214;
+  border-color: #d85600;
+}
+html.flavor-orange #loadMore span:hover,
+html.flavor-orange input[type='submit']:hover {
+  background-color: #FF6600;
+  border-color: #b14700;
+}
+html.flavor-orange #lsParent a:hover,
+html.flavor-orange #rsParent a:hover {
+  background-color: #FF6600;
+}
+html.flavor-orange #gotoTop {
+  border: 1px solid #FF6600 !important;
+}
+html.flavor-orange #gotoTop span.fa {
+  color: #FF6600 !important;
+}
+html.flavor-dark ::-webkit-input-placeholder {
+  color: #aaa !important;
+}
+html.flavor-dark #header {
+  background: #6a737b url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-dark #header * {
+  color: #f4f4f4 !important;
+}
+html.flavor-dark .ui-autocomplete {
+  background: #6a737b url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #222;
+}
+html.flavor-dark .ui-autocomplete * {
+  color: #f4f4f4 !important;
+}
+html.flavor-dark #search #search_in {
+  color: #6a737b;
+  border-color: #eee !important;
+}
+html.flavor-dark #search #search_go span {
+  color: #f4f4f4 !important;
+}
+html.flavor-dark #load .load-icon,
+html.flavor-dark .media-load .load-icon {
+  background-image: url('../images/loading-dark.gif');
+}
+html.flavor-dark #load span,
+html.flavor-dark .media-load span {
+  color: #4f555b !important;
+}
+html.flavor-dark #footer {
+  background-color: #6a737b !important;
+}
+html.flavor-dark #footer * {
+  color: #f4f4f4 !important;
+}
+html.flavor-dark #videosList #videosMenu {
+  border-color: #6a737b !important;
+}
+html.flavor-dark #videosList #videosMenu li.active {
+  background-color: #6a737b !important;
+}
+html.flavor-dark #videosList .videosArea .pageHead {
+  color: #6a737b !important;
+  border-color: #6a737b !important;
+}
+html.flavor-dark .video .v-body .v-title {
+  color: #464c51 !important;
+}
+html.flavor-dark .video .v-body .v-owner {
+  color: #34383c !important;
+}
+html.flavor-dark .video .v-foot ul.v-actions li {
+  color: #111 !important;
+  background-color: #6a737b !important;
+  border-color: #34383c !important;
+}
+html.flavor-dark #chooseCountry {
+  border-color: #6a737b !important;
+}
+html.flavor-dark #chooseCountry span.chooseCountry {
+  background-color: #737d86 !important;
+  border-color: #4f555b !important;
+}
+html.flavor-dark #countriesList {
+  border-color: #6a737b !important;
+}
+html.flavor-dark #sharePage {
+  background-color: #6a737b !important;
+}
+html.flavor-dark #sharePage:hover {
+  background-color: #7d878f !important;
+}
+html.flavor-dark #sharePage:active {
+  background-color: #585f66 !important;
+}
+html.flavor-dark #sharePage * {
+  color: #f4f4f4 !important;
+}
+html.flavor-dark #loadMore span,
+html.flavor-dark input[type='submit'] {
+  color: #4f555b;
+  background-color: #aaa;
+  border-color: #6a737b;
+}
+html.flavor-dark #loadMore span:hover,
+html.flavor-dark input[type='submit']:hover {
+  background-color: #999;
+  border-color: #4f555b;
+}
+html.flavor-dark #lsParent a:hover,
+html.flavor-dark #rsParent a:hover {
+  background-color: #6a737b;
+}
+html.flavor-dark #gotoTop {
+  border: 1px solid #6a737b !important;
+}
+html.flavor-dark #gotoTop span.fa {
+  color: #6a737b !important;
+}
+html.flavor-yellow ::-webkit-input-placeholder {
+  color: #c4a700 !important;
+}
+html.flavor-yellow #header {
+  background: #ffd900 url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-yellow #header * {
+  color: #897500 !important;
+}
+html.flavor-yellow .ui-autocomplete {
+  background: #ffd900 url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #c4a700;
+}
+html.flavor-yellow .ui-autocomplete * {
+  color: #897500 !important;
+}
+html.flavor-yellow #search #search_in {
+  color: #897500;
+  border-color: #c4a700 !important;
+}
+html.flavor-yellow #search #search_go span {
+  color: #c4a700 !important;
+}
+html.flavor-yellow #load .load-icon,
+html.flavor-yellow .media-load .load-icon {
+  background-image: url('../images/loading-yellow.gif');
+}
+html.flavor-yellow #load span,
+html.flavor-yellow .media-load span {
+  color: #897500 !important;
+}
+html.flavor-yellow #footer {
+  background-color: #ffd900 !important;
+}
+html.flavor-yellow #footer * {
+  color: #766400 !important;
+}
+html.flavor-yellow #videosList #videosMenu {
+  border-color: #ffd900 !important;
+}
+html.flavor-yellow #videosList #videosMenu li.active {
+  color: #897500;
+  background-color: #ffd900 !important;
+}
+html.flavor-yellow #videosList .videosArea .pageHead {
+  color: #ffd900 !important;
+  border-color: #ffd900 !important;
+}
+html.flavor-yellow .video .v-body .v-title {
+  color: #9d8600 !important;
+}
+html.flavor-yellow .video .v-body .v-owner {
+  color: #897500 !important;
+}
+html.flavor-yellow .video .v-foot ul.v-actions li {
+  color: #897500 !important;
+  background-color: #d8b800 !important;
+  border-color: #b19600 !important;
+}
+html.flavor-yellow #chooseCountry {
+  border-color: #ffd900 !important;
+}
+html.flavor-yellow #chooseCountry span.chooseCountry {
+  background-color: #b19600 !important;
+  border-color: #9d8600 !important;
+}
+html.flavor-yellow #countriesList {
+  border-color: #ffd900 !important;
+}
+html.flavor-yellow #sharePage {
+  background-color: #ffd900 !important;
+}
+html.flavor-yellow #sharePage:hover {
+  background-color: #ffdc14 !important;
+}
+html.flavor-yellow #sharePage:active {
+  background-color: #ebc800 !important;
+}
+html.flavor-yellow #sharePage * {
+  color: #897500;
+}
+html.flavor-yellow #loadMore span,
+html.flavor-yellow input[type='submit'] {
+  color: #897500;
+  background-color: #ffd900;
+  border-color: #b19600;
+}
+html.flavor-yellow #loadMore span:hover,
+html.flavor-yellow input[type='submit']:hover {
+  background-color: #ebc800;
+  border-color: #897500;
+}
+html.flavor-yellow #lsParent a:hover,
+html.flavor-yellow #rsParent a:hover {
+  background-color: #b19600;
+}
+html.flavor-yellow #gotoTop {
+  border: 1px solid #b19600 !important;
+}
+html.flavor-yellow #gotoTop span.fa {
+  color: #b19600 !important;
+}
+html.flavor-smoke ::-webkit-input-placeholder {
+  color: #999 !important;
+}
+html.flavor-smoke #header {
+  background: #eee url('../images/music-1.png') !important;
+  background-size: 250px 250px !important;
+}
+html.flavor-smoke #header * {
+  color: #6a737b !important;
+}
+html.flavor-smoke .ui-autocomplete {
+  background: #eee url('../images/music-1.png') -60px -6px;
+  background-size: 250px 250px;
+  border: 2px solid #6a737b;
+}
+html.flavor-smoke .ui-autocomplete * {
+  color: #4f555b !important;
+}
+html.flavor-smoke #search #search_in {
+  color: #6a737b;
+  border-color: #737d86 !important;
+}
+html.flavor-smoke #load .load-icon,
+html.flavor-smoke .media-load .load-icon {
+  background-image: url('../images/loading-smoke.gif');
+}
+html.flavor-smoke #load span,
+html.flavor-smoke .media-load span {
+  color: #4f555b !important;
+}
+html.flavor-smoke #footer {
+  background-color: #eee !important;
+}
+html.flavor-smoke #footer * {
+  color: #6a737b !important;
+}
+html.flavor-smoke #videosList #videosMenu {
+  border-color: #ddd !important;
+}
+html.flavor-smoke #videosList #videosMenu li.active {
+  color: #6a737b;
+  background-color: #ddd !important;
+}
+html.flavor-smoke #videosList .videosArea .pageHead {
+  color: #6a737b !important;
+  border-color: #ddd !important;
+}
+html.flavor-smoke .video .v-body .v-title {
+  color: #6a737b !important;
+}
+html.flavor-smoke .video .v-body .v-owner {
+  color: #4f555b !important;
+}
+html.flavor-smoke .video .v-foot ul.v-actions li {
+  color: #4f555b !important;
+  background-color: #ddd !important;
+  border-color: #6a737b !important;
+}
+html.flavor-smoke #chooseCountry {
+  border-color: #ddd !important;
+}
+html.flavor-smoke #chooseCountry span.chooseCountry {
+  background-color: #6a737b !important;
+  border-color: #4f555b !important;
+}
+html.flavor-smoke #countriesList {
+  border-color: #ddd !important;
+}
+html.flavor-smoke #sharePage {
+  background-color: #ddd !important;
+}
+html.flavor-smoke #sharePage * {
+  color: #6a737b !important;
+}
+html.flavor-smoke #sharePage:hover {
+  background-color: #eee !important;
+}
+html.flavor-smoke #sharePage:active {
+  background-color: #aaa !important;
+}
+html.flavor-smoke #loadMore span,
+html.flavor-smoke input[type='submit'] {
+  color: #4f555b;
+  background-color: #ddd;
+  border-color: #6a737b;
+}
+html.flavor-smoke #loadMore span:hover,
+html.flavor-smoke input[type='submit']:hover {
+  background-color: #ccc;
+  border-color: #4f555b;
+}
+html.flavor-smoke #lsParent a:hover,
+html.flavor-smoke #rsParent a:hover {
+  background-color: #6a737b;
+}
+html.flavor-smoke #gotoTop {
+  border: 1px solid #6a737b !important;
+}
+html.flavor-smoke #gotoTop span.fa {
+  color: #6a737b !important;
+}

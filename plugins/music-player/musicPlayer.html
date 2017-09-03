@@ -1,0 +1,58 @@
+<div id="musicPlayer">
+    <div id="playerError">Sorry, You can't play this video</div>
+    <div id="audioPlayer"></div>
+    <div class="musicLayer">
+        <div class="ml-child">
+            <div class="musicPanLeft">
+                <div id="musicButtons">
+                    <div class="musicPrev"><span class="fa fa-angle-double-left"></span></div>
+                    <div class="musicPlay"><span class="fa fa-play"></span></div>
+                    <div class="musicNext"><span class="fa fa-angle-double-right"></span></div>
+                </div>
+            </div>
+            <div class="musicPanRight">
+                <div class="mpr-child">
+                    <div id="musicTitle"></div>
+                    <div id="musicTimer">00:00/00:00</div>
+                    <div id="musicProgress">
+                        <div class="mpBuffer"></div>
+                        <div class="mpLoad"></div>
+                        <div class="mpPlay"></div>
+                    </div>
+                    <div id="musicActions">
+                        <div class="musicRepeat">
+                            <div class="joinRings"></div>
+                            <ul id="musicRepeatOptions">
+                                <li data-music-repeat="one" data-tip="@Repeat current music">&nbsp;</li>
+                                <li data-music-repeat="all" data-tip="@Repeat all music">&nbsp;</li>
+                                <li data-music-repeat="off" data-tip="@No repeat, Stop on complete">&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="musicSpeed">
+                            <div class="joinRings"></div>
+                            <ul id="musicSpeedOptions">
+                                <li data-music-speed="0.5" data-tip="@Play speed: Slow">&nbsp;</li>
+                                <li data-music-speed="1.0" data-tip="@Play speed: Normal">&nbsp;</li>
+                                <li data-music-speed="1.5" data-tip="@Play speed: Fast">&nbsp;</li>
+                                <li data-music-speed="2.0" data-tip="@Play speed: Very Fast">&nbsp;</li>
+                            </ul>
+                        </div>
+                        <span class="musicClose mcOne">CLOSE</span>
+
+                        <div class="musicVolume">
+                            <span id="musicVolumeButton" class="fa fa-volume-up"></span>
+
+                            <div id="musicVolumeSeek">
+                                <div class="musicVolumePos"></div>
+                            </div>
+                            <span class="musicClose mcTwo">CLOSE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="musicPanBottom">
+                <span class="musicClose mcX">CLOSE</span>
+            </div>
+        </div>
+    </div>
+</div>

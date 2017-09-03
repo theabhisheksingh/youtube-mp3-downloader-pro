@@ -1,0 +1,25 @@
+.media-items-ready .dlad {
+  display: block !important;
+}
+.dlad {
+  display: none;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.dlad.dlad-above {
+  padding-bottom: 0 !important;
+}
+.dlad.dlad-below {
+  padding-top: 0 !important;
+}
+.dlad * {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 468px;
+  height: 60px;
+  border: none;
+}
